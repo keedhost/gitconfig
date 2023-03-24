@@ -118,6 +118,8 @@ function InstallDelta () {
 
 function GeneralConfig () {
   #### Core config ####
+  git config --global user.name "Andrii Kondratiev"
+  git config --global user.email "h0st@ukr.net"
   git config --global core.pager delta
   git config --global core.editor "vim"
   git config --global core.compression 9
